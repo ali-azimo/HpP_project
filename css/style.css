@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: 0;
+    text-decoration: none;
+    font-family: "Ubuntu", serif;
+}
+
+.geral-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10% auto;
+    width: 60%;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    border-radius: 20px;
+}
+
+
+/* Form general */
+
+.log-input {
+    width: 500px;
+    padding: 10px;
+}
+
+.log-input h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.log-input form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.log-input form input {
+    font-size: 17px;
+    padding: 15px;
+    padding-left: 30px;
+    margin-bottom: 20px;
+    width: 300px;
+    border: 1px solid #ccc;
+    outline-color: #0E76BD;
+}
+
+.input-detail {
+    position: relative;
+}
+
+.input-detail i {
+    position: absolute;
+    font-size: 20px;
+    left: 0;
+    padding-top: 10px;
+    padding-left: 10px;
+    color: #0E76BD;
+}
+
+.log-input form p {
+    margin-bottom: 20px;
+    color: #1E3050;
+}
+
+.log-input form p a {
+    color: #1E3050;
+    font-weight: 500;
+    transition: 3s ease;
+}
+
+.log-input form p a:hover {
+    text-decoration: underline;
+    color: #0E76BD;
+}
+
+.log-input form button {
+    background-color: #0E76BD;
+    color: #fff;
+    border: 0;
+    padding: 15px 50px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 17px;
+    transition: 1s ease;
+}
+
+.log-input form button:hover {
+    background: #000;
+}
+
+
+/* Welcome login */
+
+.log-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0E76BD;
+    height: 50vh;
+    width: 500px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.log-link h2 {
+    color: #fff;
+    margin-top: 20px;
+    padding-bottom: 30px;
+}
+
+.log-link p {
+    margin-top: 20px;
+    padding: 15px;
+    text-align: center;
+    line-height: 20px;
+    color: #fff;
+}
+
+.log-link span a {
+    display: inline-block;
+    color: #fff;
+    font-weight: 500;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.contact-us {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.contact-us i {
+    font-size: 20px;
+    color: #fff;
+}
+
+.log-link button {
+    padding: 10px 30px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 20px;
+}
+
+.log-link button a {
+    color: #fff;
+    font-weight: 400;
+}
+
+
+/* Sign Up */
+
+.temos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 350px;
+}
+
+.check-box [type="checkbox"] {
+    display: inline-block;
+    width: 50px;
+    cursor: pointer;
+}
+
+.check-infor {
+    width: 300px;
+    text-align: center;
+}
+
+.check-infor p {
+    font-size: 13px;
+}
+
+.check-infor a {
+    font-size: 13px;
+}
