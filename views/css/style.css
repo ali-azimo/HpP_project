@@ -155,28 +155,64 @@
 
 /* Sign Up */
 
-.temos {
+.privacity {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 350px;
 }
 
-.check-box [type="checkbox"] {
-    display: inline-block;
-    width: 50px;
+.privacity input[type="checkbox"] {
+    height: 20px;
+    width: 5%;
+    vertical-align: middle;
     cursor: pointer;
 }
 
-.check-infor {
-    width: 300px;
+.privacity label {
+    width: 85%;
+    font-size: 14px;
+    cursor: pointer;
     text-align: center;
+    margin-bottom: 15px;
 }
 
-.check-infor p {
-    font-size: 13px;
+.privacity a {
+    display: inline-block;
+    font-size: 14px;
 }
 
-.check-infor a {
-    font-size: 13px;
+
+/* Erros Gerais */
+
+.erro-geral {
+    background-color: #c70707;
+    padding: 15px;
+    color: #FFF;
+    font-weight: bold;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.sucesso {
+    background-color: #0f9c45;
+    width: 200px;
+    text-align: center;
+    padding: 15px;
+    color: #FFF;
+    font-weight: bold;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.erro-input {
+    border: 1px solid #c70707;
+}
+
+.erro {
+    color: #c70707;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 12px;
 }
